@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+  
+}
+.header{
+    background-image: url("header.png");
+    padding:30px;  
+}
+.content{ 
+    background-color: #dcd3d3 ;
+    padding:20px;
+    
+}
+image{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 30%;
+    
+
+}
+div.desc{
+    padding:10px;
+    text-align: center ;
+    
+}div.image:hover {
+    border: 1px solid #777;
+  }div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align: right;
+    background-color: #aca9a9 ;
+    color: black;
+}
